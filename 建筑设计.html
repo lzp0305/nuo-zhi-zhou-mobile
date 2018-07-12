@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="云端科技 www.yunduancn.com">
+	<title>诺之舟</title>
+	<link rel="stylesheet" href="css/minireset.min.css">
+	<link rel="stylesheet" href="css/swiper-4.2.0.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script src="js/swiper-4.2.0.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<!-- 菜单按钮 -->
+		<div class="menu_box">
+			<div class="menu menu_out">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<!-- 菜单 -->
+		<ul class="fir_menu">
+			<li class="fir_item">
+				<span class="fir_link">课程</span>
+				<ul class="sec_menu">
+					<li class="sec_item" style="background-image: url(images/hi1.png);">
+						<a href="" class="sec_link">影视前期</a>
+					</li>
+					<li class="sec_item" style="background-image: url(images/hi2.png);">
+						<a href="" class="sec_link">影视后期</a>
+					</li>
+					<li class="sec_item" style="background-image: url(images/hi3.png);">
+						<a href="" class="sec_link">ERP</a>
+					</li>
+					<li class="sec_item" style="background-image: url(images/hi4.png);">
+						<a href="" class="sec_link">建筑设计</a>
+					</li>
+					<li class="sec_item" style="background-image: url(images/hi5.png);">
+						<a href="" class="sec_link">建筑规划手绘</a>
+					</li>
+					<li class="sec_item" style="background-image: url(images/hi6.png);">
+						<a href="" class="sec_link">室内设计</a>
+					</li>
+				</ul>
+			</li>
+			<li class="fir_item">
+				<span class="fir_link">服务</span>
+				<ul class="sec_menu">
+					<li class="sec_item" style="background-image: url(images/hi7.png);">
+						<a href="" class="sec_link">就业</a>
+					</li>
+					<li class="sec_item" style="background-image: url(images/hi8.png);">
+						<a href="" class="sec_link">贷款</a>
+					</li>
+				</ul>
+			</li>
+			<li class="fir_item">
+				<span class="fir_link">作品</span>
+				<ul class="sec_menu">
+					<li class="sec_item" style="background-image: url(images/hi9.png);">
+						<a href="" class="sec_link">作品</a>
+					</li>
+				</ul>
+			</li>
+			<li class="fir_item">
+				<span class="fir_link">视频</span>
+				<ul class="sec_menu">
+					<li class="sec_item" style="background-image: url(images/hi10.png);">
+						<a href="" class="sec_link">视频</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<!-- logo -->
+		<a href="" class="top_logo">
+			<img src="images/logo.png" alt="">
+		</a>
+	</div>
+	<script type="text/javascript">
+		$(window).load(function () {
+			$(".menu").click(function(){
+				$(this).toggleClass("menu_click menu_out");
+				$(".fir_menu").slideToggle(300);
+			});
+		});
+	</script>
+
+
+
+
+
+
+
+	<div class="banner swiper-container">
+		<div class="slide_group swiper-wrapper">
+			<a href="" class="swiper-slide">
+				<img src="images/ny_banner4.jpg" alt="">
+			</a>
+			<a href="" class="swiper-slide">
+				<img src="images/ny_banner4.jpg" alt="">
+			</a>
+			<a href="" class="swiper-slide">
+				<img src="images/ny_banner4.jpg" alt="">
+			</a>
+		</div>
+	</div>
+	<script>
+		var bannerSwiper = new Swiper('.banner', {
+			autoplay: true,
+			loop: true,
+		})
+	</script>
+
+
+
+	<div class="card jianzhu1">
+		<div class="title">建筑工程技术<span>专业前景</span></div>
+		<div class="progress progress2">
+			<li>
+				<div class="left">
+					<div class="t1">01</div>
+					<div class="t2">建筑工程人才需求持续旺盛，专业人才紧缺！</div>
+				</div>
+				<div class="right">
+					<img src="images/jianzhu1.jpg" alt="">
+				</div>
+			</li>
+			<li>
+				<div class="left">
+					<div class="t1">02</div>
+					<div class="t2">高薪、大有前途的行业</div>
+				</div>
+				<div class="right">
+					<img src="images/jianzhu2.jpg" alt="">
+				</div>
+			</li>
+			<li>
+				<div class="left">
+					<div class="t1">03</div>
+					<div class="t2">一线实战派工程师亲自授课</div>
+				</div>
+				<div class="right">
+					<img src="images/jianzhu3.jpg" alt="">
+				</div>
+			</li>
+		</div>
+	</div>
+
+
+
+
+	<ul class="jzgroup">
+		<li style="background-image: url(images/jianzhu4.jpg);">
+			<div class="title">建筑CAD软件速成班</div>
+			<div class="text">熟练使用CAD软件制图，并了解制图顺序。</div>
+		</li>
+		<li style="background-image: url(images/jianzhu5.jpg);">
+			<div class="title">建筑Photoshop软件速成班</div>
+			<div class="text">熟练使用Photoshop软件制图，并了解制图顺序及制图美观性。</div>
+		</li>
+		<li style="background-image: url(images/jianzhu6.jpg);">
+			<div class="title">建筑sketchup软件速成班</div>
+			<div class="text">熟练使用sketchup软件制图，并了解建模顺序及建模比例及美观性。</div>
+		</li>
+		<li style="background-image: url(images/jianzhu7.jpg);">
+			<div class="title">建筑施工图速成班</div>
+			<div class="text">学会多层及小高层住宅、别墅、多层办公楼建筑施工图设计；能够进入设计院从事多层建筑施工图设计，从事助理建筑师工作。</div>
+		</li>
+		<li style="background-image: url(images/jianzhu8.jpg);">
+			<div class="title">建筑方案速成班</div>
+			<div class="text">学会多层住宅、别墅、多层办公楼建筑方案设计；能够进入设计院从事简单常规建筑方案设计，从事助理建筑师工作。</div>
+		</li>
+	</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="footer">
+		Copyright © 2002-2018 诺之舟教育培训学校 版权所有<br>ICP备案编号：赣ICP备16015200号      技术支持：<a href="http://www.yunduancn.com">云端科技</a>
+	</div>
+
+
+	<div class="footer_tab">
+		<div class="tab">
+			<a href="">
+				<div class="icon">
+					<img src="images/fi1.png" alt="">
+				</div>
+				<div class="text">首页</div>
+			</a>
+		</div>
+		<div class="tab">
+			<a href="tel:1234-12345678">
+				<div class="icon">
+					<img src="images/fi2.png" alt="">
+				</div>
+				<div class="text">电话咨询</div>
+			</a>
+		</div>
+		<div class="tab">
+			<a href="mqqwpa://im/chat?chat_type=wpa&amp;uin=0000000000&#10;&amp;version=1&amp;src_type=web&amp;web_src=bjhuli.com">
+				<div class="icon">
+					<img src="images/fi3.png" alt="">
+				</div>
+				<div class="text">在线咨询</div>
+			</a>
+		</div>
+		<div class="tab">
+			<a class="foot_qr">
+				<div class="icon">
+					<img src="images/fi4.png" alt="">
+				</div>
+				<div class="text">添加微信</div>
+			</a>
+		</div>
+	</div>
+
+
+	<div class="qr_t">
+		<img src="images/qr.jpg" alt=""><span>x</span>
+	</div>
+
+
+	<script>
+		$(document).ready(function(){
+			$(".foot_qr").click(function(){
+				$(".qr_t").fadeIn();
+			});
+			$(".qr_t span").click(function(){
+				$(".qr_t").fadeOut();
+			});
+		});
+	</script>
+	<script src="js/main.js"></script>
+</body>
+</html>
